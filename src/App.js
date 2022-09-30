@@ -8,7 +8,6 @@ export default function App() {
 
   const [data, setData] = useState(null);
 
-  console.log({ data });
 
   useEffect(() => {
     if (!dataType) return;
